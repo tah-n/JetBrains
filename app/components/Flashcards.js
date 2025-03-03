@@ -55,7 +55,7 @@ const Flashcards = () => {
      
                   
 
-                    <div className='relative top-[-17px] h-[1244px] pb-3 z-10 flex items-center justify-center sm:h-[320vh] md:h-[2200px] md:w-[600vw] lg:h-[275vh] sm:w-[500vw] sm:scale-125 lg:w-full md:scale-105 w-[150vw] '>
+                    <div className='relative top-[-17px] h-[1400px] pb-3 z-10 flex items-center justify-center sm:h-[320vh] md:h-[2200px] md:w-[600vw] lg:h-[275vh] sm:w-[500vw] sm:scale-125 lg:w-full md:scale-105 w-[150vw] '>
                       <div className='w-full h-full absolute bg-white/10 backdrop-blur-3xl z-10' />
                       <img className='-z-20 h-full' src='assets/card1.png' />
                     </div>
@@ -112,7 +112,7 @@ const Flashcards = () => {
                       <SwitchButtons 
                         className='sm:hidden' 
                         array={practicalSkills} 
-                        cardClassName='p-0 h-[230px] md:!h-[220px] hover:!bg-[#21D789]'
+                        cardClassName='p-0 !h-[240px] md:!h-[220px] hover:!bg-[#21D789]'
                         cardBg={"radial-gradient(circle, rgba(106, 88, 254,0.9) 0%, rgba(106, 88, 254,0.5) 40%, rgba(106, 88, 254,0.05) 70%, rgba(106, 88, 254,0) 100%)"}
                         avatarClassName={'!top-5 right-5 lg:w-[3.8rem]'}
                         textClass={'absolute lg:!top-[-25px] !top-[-35px] left-5 w-[70%]'}
