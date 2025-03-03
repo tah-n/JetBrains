@@ -11,7 +11,7 @@ const FaqPart = () => {
   const isToggled = useStore((state) => state.isToggled)
 
   return (
-    <section className={`relative ${isToggled? 'h-[2000px] sm:h-[1500px] lg:h-[240vh]': 'h-[1800px] sm:h-[1450px] lg:h-[220vh]'} transition-all ease-in-out top-[-300px] lg:top-[-600px] w-full overflow-hidden`}>
+    <section className={`relative ${isToggled? 'h-[2100px] sm:h-[1500px] lg:h-[240vh]': 'h-[1917px] sm:h-[1450px] lg:h-[220vh]'} transition-all ease-in-out top-[-300px] lg:top-[-600px] w-full overflow-hidden`}>
 
         <div className='w-full h-auto '>
             {/* bg */}
@@ -25,7 +25,7 @@ const FaqPart = () => {
                   <Subscription />
               </div>
               {/* blue */}
-              <div className={`absolute flex justify-end bg-[#6B57FF] left-[-25px] sm:left-0 sm:w-full lg:w-[52vw] lg:left-[20vw] sm:top-14 ${display? 'top-[35rem]' : 'top-[25rem]'} sm:rounded-[3rem] sm:z-10 z-30 w-[95%] h-[30rem] rounded-[2rem]`}>
+              <div className={`absolute flex justify-end bg-[#6B57FF] left-[-25px] sm:left-0 sm:w-full lg:w-[52vw] lg:left-[20vw] sm:top-14 ${display? 'top-[36rem]' : 'top-[25rem]'} sm:rounded-[3rem] sm:z-10 z-30 w-[95%] h-[30rem] rounded-[2rem]`}>
                   <Socials />
               </div>
               {/* green */}
@@ -34,7 +34,7 @@ const FaqPart = () => {
               </div>
 
               {/* FAQ */}
-              <div className={`absolute ${display? 'top-[55rem]' : 'top-[50rem]'} flex items-center h-[21vh] lg:justify-center px-2 transition-all ease-in-out sm:top-[30rem] sm:h-[50rem] w-full rounded-[2rem] bg-white sm:rounded-[2.3rem] z-40`}>
+              <div className={`absolute ${display? 'top-[56rem]' : 'top-[50rem]'} flex items-center h-[67vh] lg:justify-center px-2 transition-all ease-in-out sm:top-[30rem] sm:h-[50rem] w-full rounded-[2rem] bg-white sm:rounded-[2.3rem] z-40`}>
                   <Faq />
               </div>
 

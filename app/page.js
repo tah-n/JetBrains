@@ -6,7 +6,7 @@ import ReviewSection from "./components/ReviewSection";
 
 export default function Home() {
   return (
- <div className="relative h-[400vh]">
+ <div className="relative h-[677vh]">
     <Header/>
     <Flashcards />
     <ReviewSection />
