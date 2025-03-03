@@ -32,7 +32,7 @@ const Cards = ({ className, title, textClass, bg, avatarClassName, desc, button,
     }}
     onMouseEnter={handleMouseOver} 
     onMouseLeave={handleMouseLeave} 
-    className={`${className} relative sm:w-[42vw] lg:w-[24vw] sm:h-[350px] cursor-pointer text-left bg-white transition-all ease-in-out text-[#19191c] hover:bg-[#6B57FF] hover:text-white pl-6 p-6 flex flex-col items-start justify-center overflow-hidden w-[88vw] h-fit rounded-3xl`}>
+    className={`${className} relative sm:w-[42vw] lg:w-[24vw] sm:h-[350px] cursor-pointer text-left bg-white transition-all ease-in-out text-[#19191c] hover:bg-[#6B57FF] hover:text-white pl-6 p-6 flex flex-col items-start justify-center overflow-hidden w-[88vw] h-fit min-h-[310px] rounded-3xl`}>
         <motion.div
           className={`absolute w-[250px] z-0 h-[250px] pointer-events-none ease-in-out transition-opacity duration-75 opacity-0 ${mouseOver && 'opacity-100'}`}
           style={{
