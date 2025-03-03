@@ -112,7 +112,7 @@ const Flashcards = () => {
                       <SwitchButtons 
                         className='sm:hidden' 
                         array={practicalSkills} 
-                        cardClassName='p-0 !h-[240px] !min-h-[120px] md:!h-[220px] hover:!bg-[#21D789]'
+                        cardClassName='p-0 !h-[250px] md:!h-[220px] hover:!bg-[#21D789]'
                         cardBg={"radial-gradient(circle, rgba(106, 88, 254,0.9) 0%, rgba(106, 88, 254,0.5) 40%, rgba(106, 88, 254,0.05) 70%, rgba(106, 88, 254,0) 100%)"}
                         avatarClassName={'!top-5 right-5 lg:w-[3.8rem]'}
                         textClass={'absolute lg:!top-[-25px] !top-[-35px] left-5 w-[70%]'}
