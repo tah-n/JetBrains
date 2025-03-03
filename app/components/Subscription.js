@@ -46,10 +46,10 @@ const Subscription = () => {
            </div>
            
 
-            <div className={`relative sm:hidden w-full pb-8 mt-2  ${display? 'h-[22vh]' : 'h-8'}`}>
+            <div className={`relative sm:hidden w-full mt-2  ${display? 'h-[25vh]' : 'h-8'}`}>
                 <div 
                     onClick={toggle}
-                    className='absolute h-8 left-[-18px] transition-all ease-in-out -bottom-2 w-32 flex items-center justify-center gap-3 cursor-pointer text-center hover:bg-black/10 rounded-full p-2'>
+                    className='absolute h-8 left-[-18px] transition-all ease-in-out -bottom-3 w-32 flex items-center justify-center gap-3 cursor-pointer text-center hover:bg-black/10 rounded-full p-2'>
                     <span className='text-[13px] tracking-wide'>{display? 'Show less': 'Show more'}</span>
                     <img src={display ? 'assets/up.png' :'assets/down.png'} width={13} height={18} />
                 </div>
