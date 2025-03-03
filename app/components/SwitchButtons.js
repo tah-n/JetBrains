@@ -2,7 +2,7 @@
 import React, { useEffect, useRef, useState } from 'react';
 import Cards from './Cards';
 
-const ITEM_WIDTH = 450;
+const ITEM_WIDTH = 405;
 
 const SwitchButtons = ({array,className,cardBg,cardClassName,avatarClassName,textClass,cardButton}) => {
     const containerRef = useRef(null);
