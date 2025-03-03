@@ -5,7 +5,7 @@ import React from 'react'
 const Achievements = () => {
   return (
     <section className='relative top-[-100px] w-full flex items-center justify-center overflow-hidden'>
-        <div className='relative w-full rounded-[2.3rem] sm:scale-100  xl:mx-20 sm:mx-4 h-[970px] sm:h-[800px] md:h-[800px] lg:h-[700px] overflow-hidden'>
+        <div className='relative w-full rounded-[2.3rem] sm:scale-100  xl:mx-20 sm:mx-4 h-[1100px] sm:h-[800px] md:h-[800px] lg:h-[700px] overflow-hidden'>
             <div className='absolute top-0 w-full h-full bg-white/20 scale-150 z-20 backdrop-blur-2xl rounded-[2.3rem]' />
             <img src='assets/Achbg1.png' className='w-full scale-150 h-[2000px] rounded-[2.3rem] '  />
         

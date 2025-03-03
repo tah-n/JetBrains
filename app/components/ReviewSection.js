@@ -6,7 +6,7 @@ import Button from './Button';
 const ReviewSection = () => {
   return (
     <div id='review' className='relative top-[-130px] w-full flex items-center justify-center overflow-hidden '>
-      <div className='relative w-full top-0 xl:mx-20 sm:mx-4 h-[840px] sm:h-[950px] lg:h-[140vh] overflow-hidden'>
+      <div className='relative w-full top-0 xl:mx-20 sm:mx-4 h-[900px] sm:h-[950px] lg:h-[140vh] overflow-hidden'>
         <div className='absolute top-0 w-full h-full bg-white/20 backdrop-blur-3xl rounded-[2.3rem]' />
         <img src='assets/bg2.png' className='w-full h-full rounded-[2.3rem]'  />
 
