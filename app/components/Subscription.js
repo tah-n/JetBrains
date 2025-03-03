@@ -46,20 +46,20 @@ const Subscription = () => {
            </div>
            
 
-            <div className={`relative sm:hidden w-full pb-8 mt-2  ${display? 'h-[21vh]' : 'h-8'}`}>
+            <div className={`relative sm:hidden w-full pb-8 mt-2  ${display? 'h-[22vh]' : 'h-8'}`}>
                 <div 
                     onClick={toggle}
-                    className='absolute h-8 left-[-18px] transition-all ease-in-out bottom-0 w-32 flex items-center justify-center gap-3 cursor-pointer text-center hover:bg-black/10 rounded-full p-2'>
+                    className='absolute h-8 left-[-18px] transition-all ease-in-out -bottom-2 w-32 flex items-center justify-center gap-3 cursor-pointer text-center hover:bg-black/10 rounded-full p-2'>
                     <span className='text-[13px] tracking-wide'>{display? 'Show less': 'Show more'}</span>
                     <img src={display ? 'assets/up.png' :'assets/down.png'} width={13} height={18} />
                 </div>
-                <div className={`overflow-hidden w-full text-left transition-all ease-in-out ${display? 'h-fit mb-2' : 'h-0'} `}>
+                <div className={`overflow-hidden w-full text-left transition-all ease-in-out ${display? 'h-fit' : 'h-0'} `}>
                     <p className='text-[14px] tracking-wide text-black/60 '>
                     By submitting this form, I agree that JetBrains s.r.o. may process the personal data I provided above and my location for the purpose explained above and may engage third parties in such processing. The consent can be revoked in my profile at any time. More details about the processing are in JetBrains Privacy Notice. In addition, an unsubscribe link is included in each email.
                     </p>
                 </div>
             </div>
-            <Button className='mt-6 !bg-black !w-28 hover:!bg-[#1B3F31]'>
+            <Button className='mt-8 !bg-black !w-28 hover:!bg-[#1B3F31]'>
                 Submit
             </Button>
         </div>
