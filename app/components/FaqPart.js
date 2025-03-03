@@ -25,7 +25,7 @@ const FaqPart = () => {
                   <Subscription />
               </div>
               {/* blue */}
-              <div className={`absolute flex justify-end bg-[#6B57FF] left-[-25px] sm:left-0 sm:w-full lg:w-[52vw] lg:left-[20vw] sm:top-14 ${display? 'top-[33rem]' : 'top-[25rem]'} sm:rounded-[3rem] sm:z-10 z-30 w-[95%] h-[30rem] rounded-[2rem]`}>
+              <div className={`absolute flex justify-end bg-[#6B57FF] left-[-25px] sm:left-0 sm:w-full lg:w-[52vw] lg:left-[20vw] sm:top-14 ${display? 'top-[35rem]' : 'top-[25rem]'} sm:rounded-[3rem] sm:z-10 z-30 w-[95%] h-[30rem] rounded-[2rem]`}>
                   <Socials />
               </div>
               {/* green */}
@@ -34,7 +34,7 @@ const FaqPart = () => {
               </div>
 
               {/* FAQ */}
-              <div className={`absolute top-[50rem] flex items-center h-[20vh] lg:justify-center px-2 transition-all ease-in-out sm:top-[30rem] sm:h-[50rem] w-full rounded-[2rem] bg-white sm:rounded-[2.3rem] z-40`}>
+              <div className={`absolute ${display? 'top-[55rem]' : 'top-[50rem]'} flex items-center h-[21vh] lg:justify-center px-2 transition-all ease-in-out sm:top-[30rem] sm:h-[50rem] w-full rounded-[2rem] bg-white sm:rounded-[2.3rem] z-40`}>
                   <Faq />
               </div>
 

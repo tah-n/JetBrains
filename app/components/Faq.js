@@ -22,7 +22,7 @@ const Faq = () => {
     }
 
   return (
-    <div className='w-full lg:w-[65%] justify-center h-full p-4 py-20'>
+    <div className='w-full lg:w-[65%] justify-center h-full min-h-[210px] p-4 py-20'>
         <p className='mb-4 text-3xl font-semibold'>FAQ</p>
 
         <div className='w-full lg:grid lg:grid-cols-2 lg:gap-0'>

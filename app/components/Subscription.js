@@ -46,7 +46,7 @@ const Subscription = () => {
            </div>
            
 
-            <div className={`relative sm:hidden w-full pb-8 mt-2  ${display? 'h-[10rem]' : 'h-8'}`}>
+            <div className={`relative sm:hidden w-full pb-8 mt-2  ${display? 'h-[12rem]' : 'h-8'}`}>
                 <div 
                     onClick={toggle}
                     className='absolute h-8 left-[-18px] transition-all ease-in-out bottom-0 w-32 flex items-center justify-center gap-3 cursor-pointer text-center hover:bg-black/10 rounded-full p-2'>

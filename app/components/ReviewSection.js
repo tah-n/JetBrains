@@ -25,7 +25,7 @@ const ReviewSection = () => {
               {interviews.map((view, i) => (
                 <div
                   key={i} 
-                  className='rounded-3xl bg-[#6B57FF] text-white w-[88vw] sm:w-[400px] lg:w-[25vw] sm:h-[300px] flex flex-col justify-center sm:justify-evenly gap-9 px-4 h-[260px] overflow-hidden'>
+                  className='rounded-3xl bg-[#6B57FF] text-white w-[90vw] sm:w-[400px] lg:w-[25vw] sm:h-[300px] flex flex-col justify-center sm:justify-evenly gap-9 px-4 h-[270px] overflow-hidden'>
                     <p className='z-20'>
                       {view.review}
                     </p>
